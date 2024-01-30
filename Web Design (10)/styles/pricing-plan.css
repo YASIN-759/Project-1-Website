@@ -1,0 +1,804 @@
+@media screen and (max-width:991px) {
+    .prices-plan {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+        padding-bottom: 10rem;
+    }
+
+    .prices-plan > .price-plan-h1 {
+        font-weight: 900;
+        letter-spacing: normal;
+        font-size: var(--size-4xl);
+        padding-bottom: 5rem;
+        text-transform: uppercase;
+    }
+
+    .price-plan-pad {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .price-plan-card {
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 350px;
+        height: auto;
+        /* background-color: var(--color-primary); */
+        background-color: var(--color-secondary);
+        border: 3px solid var(--color-grey);
+        position: relative;
+        z-index: 5;
+    }
+
+    .price-plan-card > .plan-card-upper-div {
+        height: auto;
+        padding-bottom: 0.7rem;
+    }
+
+    .plan-card-upper-div > .card-h1 {
+        font-size: var(--size-3xl);
+        
+    }
+
+    .plan-card-upper-div > .card-h2 {
+        font-weight: 500;
+        font-size: var(--size-xl);
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.5px;
+
+    }
+
+    .card-h2 > span {
+        font-size: var(--size-sm);
+        color: var(--color-primary);
+    }
+
+    .price-plan-card > .plan-card-lower-div {
+        height: auto;
+    }    
+
+    .plan-card-lower-div > .card-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-xl);
+        letter-spacing: -0.5px;
+        color: var(--color-primary);
+    }
+
+    .plan-card-lower-div > .card-ul {
+        padding-left: 1.3rem;
+    } 
+
+    .card-ul > li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-ul > li::before {
+        content: "";
+        position: absolute;
+        left: -1.3rem;
+        top: 8px;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .price-plan-pad > .card-overlay {
+        position: absolute;
+        height: 100%;
+        width: 350px;
+        top: 9%;
+        overflow: hidden;
+        background-color: var(--color-grey);
+        display: flex;
+        align-items: end;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    }
+
+    .card-overlay > p {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: var(--size-sm);
+        transition: 0.5s;
+    }
+
+    .card-overlay > p::before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        bottom: 22px;
+        left:20px;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    
+    
+    .card-overlay > p:hover::before {
+        animation-name: bounce;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-duration: 0.8s;
+        opacity: 1;
+    }
+
+    @keyframes bounce {
+        0% { transform: translateY(-50px); animation-timing-function: ease-in; }
+        38% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        55% { transform: translateY(-20px); animation-timing-function: ease-in; }
+        72% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        81% { transform: translateY(-10px); animation-timing-function: ease-in; }
+        90% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        95% { transform: translateY(-5px); animation-timing-function: ease-in; }
+        100% { transform: translateY(0); animation-timing-function: ease-in-out; }
+      }
+
+      .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    .card-overlay > p::before {
+        bottom: 22px;
+        left:20px;
+    }
+
+    .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+}
+
+@media screen and (max-width:555px) {
+    .card-overlay > p::before {
+        bottom: 22px;
+        left:20px;
+    }
+
+    .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+}
+
+@media screen and (max-width:455px) {
+
+    .card-overlay > p::before {
+        bottom: 22px;
+        left:20px;
+    }
+
+    .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .prices-plan {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+        padding-bottom: 10rem;
+    }
+
+    .prices-plan > .price-plan-h1 {
+        font-weight: 900;
+        letter-spacing: normal;
+        font-size: var(--size-4xl);
+        padding-bottom: 5rem;
+        text-transform: uppercase;
+    }
+
+    .price-plan-pad {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .price-plan-card {
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 350px;
+        height: auto;
+        /* background-color: var(--color-primary); */
+        background-color: var(--color-secondary);
+        border: 3px solid var(--color-grey);
+        position: relative;
+        z-index: 5;
+    }
+
+    .price-plan-card > .plan-card-upper-div {
+        height: auto;
+        padding-bottom: 0.7rem;
+    }
+
+    .plan-card-upper-div > .card-h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .plan-card-upper-div > .card-h2 {
+        font-weight: 500;
+        font-size: var(--size-xl);
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.5px;
+
+    }
+
+    .card-h2 > span {
+        font-size: var(--size-sm);
+        color: var(--color-primary);
+    }
+
+    .price-plan-card > .plan-card-lower-div {
+        height: auto;
+    }    
+
+    .plan-card-lower-div > .card-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-xl);
+        letter-spacing: -0.5px;
+        color: var(--color-primary);
+    }
+
+    .plan-card-lower-div > .card-ul {
+        padding-left: 1.3rem;
+    } 
+
+    .card-ul > li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-ul > li::before {
+        content: "";
+        position: absolute;
+        left: -1.3rem;
+        top: 8px;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .price-plan-pad > .card-overlay {
+        position: absolute;
+        height: 100%;
+        width: 350px;
+        top: 9%;
+        overflow: hidden;
+        background-color: var(--color-grey);
+        display: flex;
+        align-items: end;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    }
+
+    .card-overlay > p {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: var(--size-sm);
+        transition: 0.5s;
+    }
+
+    .card-overlay > p::before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        bottom: 22px;
+        left:20px;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+
+    
+    .card-overlay > p:hover::before {
+        animation-name: bounce;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-duration: 0.8s;
+        opacity: 1;
+    }
+
+    @keyframes bounce {
+        0% { transform: translateY(-50px); animation-timing-function: ease-in; }
+        38% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        55% { transform: translateY(-20px); animation-timing-function: ease-in; }
+        72% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        81% { transform: translateY(-10px); animation-timing-function: ease-in; }
+        90% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        95% { transform: translateY(-5px); animation-timing-function: ease-in; }
+        100% { transform: translateY(0); animation-timing-function: ease-in-out; }
+      }
+
+      .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .prices-plan {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+        padding-bottom: 10rem;
+    }
+
+    .prices-plan > .price-plan-h1 {
+        font-weight: 900;
+        letter-spacing: normal;
+        font-size: var(--size-4xl);
+        padding-bottom: 5rem;
+        text-transform: uppercase;
+    }
+
+    .price-plan-pad {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .price-plan-card {
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 350px;
+        height: auto;
+        /* background-color: var(--color-primary); */
+        background-color: var(--color-secondary);
+        border: 3px solid var(--color-grey);
+        position: relative;
+        z-index: 5;
+    }
+
+    .price-plan-card > .plan-card-upper-div {
+        height: auto;
+        padding-bottom: 0.7rem;
+    }
+
+    .plan-card-upper-div > .card-h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .plan-card-upper-div > .card-h2 {
+        font-weight: 500;
+        font-size: var(--size-xl);
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.5px;
+
+    }
+
+    .card-h2 > span {
+        font-size: var(--size-sm);
+        color: var(--color-primary);
+    }
+
+    .price-plan-card > .plan-card-lower-div {
+        height: auto;
+    }    
+
+    .plan-card-lower-div > .card-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-xl);
+        letter-spacing: -0.5px;
+        color: var(--color-primary);
+    }
+
+    .plan-card-lower-div > .card-ul {
+        padding-left: 1.3rem;
+    } 
+
+    .card-ul > li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-ul > li::before {
+        content: "";
+        position: absolute;
+        left: -1.3rem;
+        top: 8px;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .price-plan-pad > .card-overlay {
+        position: absolute;
+        height: 100%;
+        width: 350px;
+        top: 9%;
+        overflow: hidden;
+        background-color: var(--color-grey);
+        display: flex;
+        align-items: end;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    }
+
+    .card-overlay > p {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: var(--size-sm);
+        transition: 0.5s;
+    }
+
+    .card-overlay > p::before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        bottom: 22px;
+        left:20px;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+
+    .card-overlay > p:hover::before {
+        animation-name: bounce;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-duration: 0.8s;
+        opacity: 1;
+    }
+
+    @keyframes bounce {
+        0% { transform: translateY(-50px); animation-timing-function: ease-in; }
+        38% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        55% { transform: translateY(-20px); animation-timing-function: ease-in; }
+        72% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        81% { transform: translateY(-10px); animation-timing-function: ease-in; }
+        90% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        95% { transform: translateY(-5px); animation-timing-function: ease-in; }
+        100% { transform: translateY(0); animation-timing-function: ease-in-out; }
+      }
+
+      .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+
+
+}
+
+@media screen and (min-width:1200px) {
+    .prices-plan {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+        padding-bottom: 10rem;
+    }
+
+    .prices-plan > .price-plan-h1 {
+        font-weight: 900;
+        letter-spacing: normal;
+        font-size: var(--size-4xl);
+        padding-bottom: 5rem;
+        text-transform: uppercase;
+    }
+
+    .price-plan-pad {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .price-plan-card {
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 350px;
+        height: auto;
+        /* background-color: var(--color-primary); */
+        background-color: var(--color-secondary);
+        border: 3px solid var(--color-grey);
+        position: relative;
+        z-index: 5;
+    }
+
+    .price-plan-card > .plan-card-upper-div {
+        height: auto;
+        padding-bottom: 0.7rem;
+    }
+
+    .plan-card-upper-div > .card-h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .plan-card-upper-div > .card-h2 {
+        font-weight: 500;
+        font-size: var(--size-xl);
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.5px;
+
+    }
+
+    .card-h2 > span {
+        font-size: var(--size-sm);
+        color: var(--color-primary);
+    }
+
+    .price-plan-card > .plan-card-lower-div {
+        height: auto;
+    }    
+
+    .plan-card-lower-div > .card-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-xl);
+        letter-spacing: -0.5px;
+        color: var(--color-primary);
+    }
+
+    .plan-card-lower-div > .card-ul {
+        padding-left: 1.3rem;
+    } 
+
+    .card-ul > li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-ul > li::before {
+        content: "";
+        position: absolute;
+        left: -1.3rem;
+        top: 8px;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .price-plan-pad > .card-overlay {
+        position: absolute;
+        height: 100%;
+        width: 350px;
+        top: 9%;
+        overflow: hidden;
+        background-color: var(--color-grey);
+        display: flex;
+        align-items: end;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    }
+
+    .card-overlay > p {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: var(--size-sm);
+        transition: 0.5s;
+    }
+
+    .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+
+
+
+}
+
+@media screen and (min-width:1279px) {
+    .prices-plan {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+        padding-bottom: 10rem;
+    }
+
+    .prices-plan > .price-plan-h1 {
+        font-weight: 900;
+        letter-spacing: normal;
+        font-size: var(--size-4xl);
+        padding-bottom: 5rem;
+        text-transform: uppercase;
+    }
+
+    .price-plan-pad {
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .price-plan-card {
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 350px;
+        height: auto;
+        /* background-color: var(--color-primary); */
+        background-color: var(--color-secondary);
+        border: 3px solid var(--color-grey);
+        position: relative;
+        z-index: 5;
+    }
+
+    .price-plan-card > .plan-card-upper-div {
+        height: auto;
+        padding-bottom: 0.7rem;
+    }
+
+    .plan-card-upper-div > .card-h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .plan-card-upper-div > .card-h2 {
+        font-weight: 500;
+        font-size: var(--size-xl);
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.5px;
+
+    }
+
+    .card-h2 > span {
+        font-size: var(--size-sm);
+        color: var(--color-primary);
+    }
+
+    .price-plan-card > .plan-card-lower-div {
+        height: auto;
+    }    
+
+    .plan-card-lower-div > .card-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-xl);
+        letter-spacing: -0.5px;
+        color: var(--color-primary);
+    }
+
+    .plan-card-lower-div > .card-ul {
+        padding-left: 1.3rem;
+    } 
+
+    .card-ul > li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-ul > li::before {
+        content: "";
+        position: absolute;
+        left: -1.3rem;
+        top: 8px;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .price-plan-pad > .card-overlay {
+        position: absolute;
+        height: 100%;
+        width: 350px;
+        top: 9%;
+        overflow: hidden;
+        background-color: var(--color-grey);
+        display: flex;
+        align-items: end;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    }
+
+    .card-overlay > p {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: var(--size-sm);
+        transition: 0.5s;
+        position: relative;
+    }
+
+    .card-overlay > p::before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        bottom: 8px;
+        left:10px;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+    
+    .card-overlay > p:hover::before {
+        animation-name: bounce;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-duration: 0.8s;
+        opacity: 1;
+    }
+
+    @keyframes bounce {
+        0% { transform: translateY(-50px); animation-timing-function: ease-in; }
+        38% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        55% { transform: translateY(-20px); animation-timing-function: ease-in; }
+        72% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        81% { transform: translateY(-10px); animation-timing-function: ease-in; }
+        90% { transform: translateY(0); animation-timing-function: ease-in-out; }
+        95% { transform: translateY(-5px); animation-timing-function: ease-in; }
+        100% { transform: translateY(0); animation-timing-function: ease-in-out; }
+      }
+
+      .card-overlay > p:hover {
+        color: var(--color-primary);
+    }
+
+}

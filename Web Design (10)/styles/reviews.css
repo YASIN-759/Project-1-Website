@@ -1,0 +1,556 @@
+@media screen and (max-width:991px) {
+    .reviews {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+    }
+
+    .reviews > .review-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-4xl);
+        font-weight: 900;
+        padding-bottom: 10rem;
+    }
+
+    .review-pad {
+        position: relative;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .review-pad > .review-trans-patch {
+        top: 23%;
+        position: absolute;
+        background-color: var(--color-grey);
+        height: 90vh;
+        width: 96%;
+        z-index: 1;
+    }
+
+    .review-pad > .row-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .row-col > .review-card {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        height:auto;
+        width:580px;
+        background-color: var(--color-secondary);
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        z-index: 1;
+        margin-bottom: 2rem;
+    }
+
+    .review-card > .card-upper-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .card-upper-div > .bxs-star {
+        font-size: var(--size-xl);
+        color: var(--color-red);
+    }
+    
+    .card-upper-div > .card-h1 {
+        padding-top: 0.3rem;
+        text-transform: uppercase;
+        font-size: var(--size-2xl);
+    }
+
+    .card-upper-div > .card-para {
+        padding-bottom: 1rem;
+        font-size: var(--size-xl);
+        border-bottom: 1px solid var(--color-grey);
+    }
+
+    .card-lower-div {
+        padding-top: 1rem;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .card-lower-div > .profile-pic {
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+        margin-right: 1rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-info > .client-name {
+        font-size: var(--size-2xl);
+        font-weight: 500;
+        color: var(--color-primary);
+    }
+
+    .profile-info > .client-company {
+        font-size: var(--size-sm);
+    }
+}
+
+@media  screen and (max-width:767px) {
+
+
+    .row-col > .review-card {
+        width:480px;
+    }
+
+    .card-lower-div > .profile-pic {
+        width: 60px;
+        height: 60px;
+    }
+
+    .profile-info > .client-name {
+        font-size: var(--size-xl);       
+    }
+
+}
+
+@media screen and (max-width:555px) {
+
+    .row-col > .review-card {
+        width:450px;
+    }
+
+    .card-upper-div > .bxs-star {
+        font-size: var(--size-md);
+    }
+
+    .card-upper-div > .card-h1 {
+        font-size: var(--size-xl);
+    }
+
+    .card-upper-div > .card-para {
+        padding-bottom: 0.5rem;
+        font-size: var(--size-md);
+
+    }
+
+    .card-lower-div {
+        padding-top: 0.5rem;
+
+    }
+
+    .card-lower-div > .profile-pic {
+        width: 50px;
+        height: 50px;
+    }
+
+    .profile-info > .client-name {
+        font-size: var(--size-xl);
+    }
+
+}
+
+@media screen and (max-width:455px) {
+
+    .row-col > .review-card {
+        width:300px;
+    }
+
+    .card-upper-div > .bxs-star {
+        font-size: var(--size-md);
+    }
+
+    .card-upper-div > .card-h1 {
+        font-size: var(--size-xl);
+    }
+
+    .card-upper-div > .card-para {
+        padding-bottom: 0.5rem;
+        font-size: var(--size-md);
+    }
+
+    .card-lower-div {
+        padding-top: 0.5rem;
+    }
+
+    .card-lower-div > .profile-pic {
+        width: 50px;
+        height: 50px;
+    }
+
+    .profile > .client-name {
+        font-size: var(--size-xl);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .reviews {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        height: 280vh;
+        width: 100%;
+        background-color: var(--color-secondary);
+    }
+
+    .reviews > .review-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-4xl);
+        font-weight: 900;
+        padding-bottom: 10rem;
+    }
+
+    .reviews > .review-pad {
+        position: relative;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .review-pad > .review-trans-patch {
+        top: 23%;
+        position: absolute;
+        background-color: var(--color-grey);
+        height: 90vh;
+        width: 96%;
+        z-index: 1;
+    }
+
+    .review-pad > .row-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .row-col > .review-card {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        height:auto;
+        width:580px;
+        background-color: var(--color-secondary);
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        z-index: 1;
+        margin-bottom: 2rem;
+    }
+
+    .card-upper-div > .bxs-star {
+        font-size: var(--size-xl);
+        color: var(--color-red);
+    }
+
+    .card-upper-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .card-upper-div > .card-h1 {
+        padding-top: 0.3rem;
+        text-transform: uppercase;
+        font-size: var(--size-2xl);
+    }
+
+    .card-upper-div > .card-para {
+        padding-bottom: 1rem;
+        font-size: var(--size-xl);
+        border-bottom: 1px solid var(--color-grey);
+    }
+
+    .card-lower-div {
+        padding-top: 1rem;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .card-lower-div > .profile-pic {
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+        margin-right: 1rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profle-info > .client-name {
+        font-size: var(--size-2xl);
+        font-weight: 500;
+        color: var(--color-primary);
+    }
+
+    .profle-info > .client-company {
+        font-size: var(--size-sm);
+    }
+}
+
+@media screen and (min-width:992px) {
+    .reviews {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        height: 280vh;
+        width: 100%;
+        background-color: var(--color-secondary);
+    }
+
+    .reviews > .review-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-4xl);
+        font-weight: 900;
+        padding-bottom: 10rem;
+    }
+
+    .reviews > .review-pad {
+        position: relative;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .review-pad > .review-trans-patch {
+        top: 23%;
+        position: absolute;
+        background-color: var(--color-grey);
+        height: 90vh;
+        width: 96%;
+        z-index: 1;
+    }
+
+    .review-pad > .row-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .row-col > .review-card {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        height:auto;
+        width:580px;
+        background-color: var(--color-secondary);
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        z-index: 1;
+        margin-bottom: 2rem;
+    }
+
+    .card-upper-div > .bxs-star {
+        font-size: var(--size-xl);
+        color: var(--color-red);
+    }
+
+    .card-upper-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .card-upper-div > .card-h1 {
+        padding-top: 0.3rem;
+        text-transform: uppercase;
+        font-size: var(--size-2xl);
+    }
+
+    .card-upper-div > .card-para {
+        padding-bottom: 1rem;
+        font-size: var(--size-xl);
+        border-bottom: 1px solid var(--color-grey);
+    }
+
+    .card-lower-div {
+        padding-top: 1rem;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .card-lower-div > .profile-pic {
+        width: 70px;
+        border-radius: 50%;
+        height: 70px;
+        margin-right: 1rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-info > .client-name {
+        font-size: var(--size-2xl);
+        font-weight: 500;
+        color: var(--color-primary);
+    }
+
+    .profile-info > .client-company {
+        font-size: var(--size-sm);
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .reviews {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        height: 130vh;
+        width: 100%;
+        background-color: var(--color-secondary);
+    }
+
+    .reviews > .review-h1 {
+        text-transform: uppercase;
+        font-size: var(--size-4xl);
+        font-weight: 900;
+        padding-bottom: 10rem;
+    }
+
+    .reviews > .review-pad {
+        position: relative;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .review-pad > .review-trans-patch {
+        top: -10%;
+        position: absolute;
+        background-color: var(--color-grey);
+        height: 65vh;
+        width: 700px;
+        z-index: 1;
+    }
+
+    .review-pad > .row-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        padding-left: 2.5rem;
+    }
+
+    .row-col > .review-card {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height:auto;
+        width:350px;
+        background-color: var(--color-secondary);
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        z-index: 1;
+        margin-bottom: 0rem;
+        margin-right: 2.5rem;
+    }
+
+    .card-upper-div > .bxs-star {
+        font-size: var(--size-xl);
+        color: var(--color-red);
+    }
+
+    .review-card > .card-upper-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .card-upper-div > .card-h1 {
+        padding-top: 0.3rem;
+        text-transform: uppercase;
+        font-size: var(--size-2xl);
+    }
+
+    .card-upper-div > .card-para {
+        padding-bottom: 1rem;
+        font-size: var(--size-xl);
+        border-bottom: 1px solid var(--color-grey);
+    }
+
+    .card-lower-div {
+        padding-top: 1rem;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .card-lower-div > .profile-pic {
+        width: 50px;
+        border-radius: 50%;
+        height: 50px;
+        margin-right: 1rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-info > .client-name {
+        font-size: var(--size-xl);
+        font-weight: 500;
+        color: var(--color-primary);
+    }
+
+    .profile-info > .client-company {
+        font-size: var(--size-sm);
+    }
+}

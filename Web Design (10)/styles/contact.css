@@ -1,0 +1,243 @@
+@media screen and (max-width:991px) {
+    .contact {
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+}
+
+.contact > .contact-h1 {
+    font-size: var(--size-4xl);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-bottom: 5rem;
+}
+
+.contact-pad {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+
+input[type="text"] {
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 10vh;
+    font-size: var(--size-md);
+    background-color: var(--color-grey);
+    outline: none;
+    border: none;
+    color: black;
+    font-family: 'Gilroy';
+}
+
+input[type="text"]:focus {
+    background-color: white;
+}
+
+.contact-pad > button {
+    width: 500px;
+    height: 10vh;
+    text-transform: uppercase;
+    font-size: var(--size-xs);
+    font-weight: 600;
+    color: white;
+    background-color: var(--color-primary);
+    transition: all ease 0.5s;
+}
+
+.contact-pad > button:hover {
+    background-color: white;
+    color: black;
+    cursor: none;
+}
+
+.contact-pad > p {
+    padding-top: 1rem;
+    font-size: var(--size-sm);
+    width: 350px
+    
+}
+}
+
+@media screen and (max-width:767px) {
+    
+}
+
+@media screen and (max-width:555px) {
+    input[type="text"] {
+    width: 450px;
+}
+
+.contact-pad > button {
+    width: 450px;
+}
+}
+
+@media screen and (max-width:455px) {
+    input[type="text"] {
+    width: 300px;
+    font-size: var(--size-xs);
+}
+
+.contact-pad > button {
+    width: 300px;
+    font-size: var(--size-xs);
+}
+}
+
+@media screen and (min-width:768px) {
+    .contact {
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+}
+
+.contact > .contact-h1 {
+    font-size: var(--size-4xl);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-bottom: 5rem;
+}
+
+.contact-pad {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+
+input[type="text"] {
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 10vh;
+    font-size: var(--size-md);
+    background-color: var(--color-grey);
+    outline: none;
+    border: none;
+    color: black;
+    font-family: 'Gilroy';
+}
+
+input[type="text"]:focus {
+    background-color: white;
+}
+
+.contact-pad > button {
+    width: 500px;
+    height: 10vh;
+    text-transform: uppercase;
+    font-size: var(--size-xs);
+    font-weight: 600;
+    color: white;
+    background-color: var(--color-primary);
+    transition: all ease 0.5s;
+}
+
+.contact-pad > button:hover {
+    background-color: white;
+    color: black;
+    cursor: none;
+}
+
+.contact-pad > p {
+    padding-top: 1rem;
+    font-size: var(--size-sm);
+    width: 350px
+    
+}
+}
+
+@media screen and (min-width:1279px) {
+    .contact {
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+}
+
+.contact > .contact-h1 {
+    font-size: var(--size-4xl);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-bottom: 5rem;
+}
+
+.contact-pad {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    display: flex;
+    width: 1279px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+
+input[type="text"] {
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 10vh;
+    font-size: var(--size-md);
+    background-color: var(--color-grey);
+    outline: none;
+    border: none;
+    color: black;
+    font-family: 'Gilroy';
+}
+
+input[type="text"]:focus {
+    background-color: white;
+}
+
+.contact-pad > button {
+    width: 500px;
+    height: 10vh;
+    text-transform: uppercase;
+    font-size: var(--size-xs);
+    font-weight: 600;
+    color: white;
+    background-color: var(--color-primary);
+    transition: all ease 0.5s;
+}
+
+.contact-pad > button:hover {
+    background-color: white;
+    color: black;
+    cursor: none;
+}
+
+.contact-pad > p {
+    padding-top: 1rem;
+    font-size: var(--size-sm);
+    width: 350px
+    
+}
+}

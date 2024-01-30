@@ -1,0 +1,326 @@
+
+
+@media screen and (max-width:991px) {
+    .blogs {
+    height: auto;
+    background-color: var(--color-secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.blogs > .blogs-h1 {
+    font-size: var(--size-4xl);
+    text-transform: uppercase;
+}
+
+.blog-pad {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    height: 100%;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.row-col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-col > .blog-a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.row-col > .blog-b {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.blog-a > #blog-img {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(/Images/blog-pic-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-b > #blog-img {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(/Images/blog-pic-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#blog-disc {
+    background-color: var(--color-grey);
+    width: 95%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 3.5rem;
+}
+
+#blog-disc > h1 {
+    font-size: var(--size-3xl);
+    text-transform: uppercase;
+    word-spacing: 0.2rem;
+    padding-bottom: 1.5rem;
+}
+
+#blog-disc > p {
+    font-size: var(--size-xl);
+}    
+}
+
+@media screen and (max-width:767px) {
+    #blog-disc > p {
+        font-size: var(--size-xl);
+    }
+
+    .blog-a > #blog-img {
+        width: 100%;
+        height: 65vh;
+        overflow: hidden;
+        background-image: url(/Images/blog-pic-2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .blog-b > #blog-img {
+        width: 100%;
+        height: 65vh;
+        overflow: hidden;
+        background-image: url(/Images/blog-pic-1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .blogs {
+    height: auto;
+    background-color: var(--color-secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.blogs > .blogs-h1 {
+    font-size: var(--size-4xl);
+    text-transform: uppercase;
+}
+
+.blog-pad {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    height: 100%;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.row-col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-col > .blog-a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.row-col > .blog-b {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.blog-a > #blog-img {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(/Images/blog-pic-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-b > #blog-img {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(/Images/blog-pic-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#blog-disc {
+    background-color: var(--color-grey);
+    width: 95%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 3.5rem;
+}
+
+#blog-disc > h1 {
+    font-size: var(--size-3xl);
+    text-transform: uppercase;
+    word-spacing: 0.2rem;
+    padding-bottom: 1.5rem;
+}
+
+#blog-disc > p {
+    font-size: var(--size-xl);
+}    
+}
+
+@media screen and (min-width:992px) {
+    .blogs {
+    height: auto;
+    background-color: var(--color-secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.blogs > .blogs-h1 {
+    font-size: var(--size-4xl);
+    text-transform: uppercase;
+}
+
+.blog-pad {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    height: 100%;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.row-col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.row-col > .blog-a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 0rem;
+}
+
+.row-col > .blog-b {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.blog-a > #blog-img {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(/Images/blog-pic-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-b > #blog-img {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(/Images/blog-pic-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#blog-disc {
+    background-color: var(--color-grey);
+    width: 95%;
+    height: auto;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 3.5rem;
+}
+
+#blog-disc > h1 {
+    font-size: var(--size-3xl);
+    text-transform: uppercase;
+    word-spacing: 0.2rem;
+    padding-bottom: 1.5rem;
+}
+
+#blog-disc > p {
+    font-size: var(--size-xl);
+}    
+}
+
+@media screen and (min-wdith:1279px) {
+    .blog-pad {
+        width: 1279px;
+    }
+}

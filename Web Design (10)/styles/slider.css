@@ -1,0 +1,389 @@
+
+@media screen and (max-width:991px) {
+    
+    .slides-2 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--color-secondary);
+    }
+    
+    .row-col2 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: auto;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        animation-name: slidee;
+        animation-duration: 22s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidee {
+        0% {
+            transform: translateX(0%);
+        }
+        
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .slide-2-img {
+        height: 45vh;
+        width: 350px;
+    }
+    
+    #slide-2-1 {
+        background-image: url(/Images/slide1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-2 {
+        background-image: url(/Images/slide2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-3 {
+        background-image: url(/Images/slide3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-4 {
+        background-image: url(/Images/slide4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-5 {
+        background-image: url(/Images/slide5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-6 {
+        background-image: url(/Images/slide6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    
+}
+
+@media screen and (max-width:555px) {
+    
+}
+
+@media screen and (max-width:455px) {
+    
+}
+
+@media screen and (min-width:767px) {
+    
+    .slides-2 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--color-secondary);
+    }
+    
+    .row-col2 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: auto;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        animation-name: slidee;
+        animation-duration: 22s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidee {
+        0% {
+            transform: translateX(0%);
+        }
+        
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .slide-2-img {
+        height: 45vh;
+        width: 350px;
+    }
+    
+    #slide-2-1 {
+        background-image: url(/Images/slide1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-2 {
+        background-image: url(/Images/slide2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-3 {
+        background-image: url(/Images/slide3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-4 {
+        background-image: url(/Images/slide4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-5 {
+        background-image: url(/Images/slide5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-6 {
+        background-image: url(/Images/slide6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    
+    .slides-2 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+    }
+    
+    .row-col2 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: auto;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        animation-name: slidee;
+        animation-duration: 22s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidee {
+        0% {
+            transform: translateX(0%);
+        }
+        
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .slide-2-img {
+        height: 45vh;
+        width: 350px;
+    }
+    
+    #slide-2-1 {
+        background-image: url(/Images/slide1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-2 {
+        background-image: url(/Images/slide2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-3 {
+        background-image: url(/Images/slide3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-4 {
+        background-image: url(/Images/slide4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-5 {
+        background-image: url(/Images/slide5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-6 {
+        background-image: url(/Images/slide6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    
+    .slides-2 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+    }
+    
+    .row-col2 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: auto;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        animation-name: slidee;
+        animation-duration: 22s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidee {
+        0% {
+            transform: translateX(0%);
+        }
+        
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .slide-2-img {
+        height: 45vh;
+        width: 350px;
+    }
+    
+    #slide-2-1 {
+        background-image: url(/Images/slide1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-2 {
+        background-image: url(/Images/slide2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-3 {
+        background-image: url(/Images/slide3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-4 {
+        background-image: url(/Images/slide4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-5 {
+        background-image: url(/Images/slide5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-6 {
+        background-image: url(/Images/slide6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width:1279px) {
+    
+    .slides-2 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        background-color: var(--color-secondary);
+    }
+    
+    .row-col2 {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: auto;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        animation-name: slidee;
+        animation-duration: 22s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidee {
+        0% {
+            transform: translateX(0%);
+        }
+        
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    .slide-2-img {
+        height: 45vh;
+        width: 350px;
+    }
+    
+    #slide-2-1 {
+        background-image: url(/Images/slide1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-2 {
+        background-image: url(/Images/slide2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-3 {
+        background-image: url(/Images/slide3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-4 {
+        background-image: url(/Images/slide4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-5 {
+        background-image: url(/Images/slide5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #slide-2-6 {
+        background-image: url(/Images/slide6.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+}
